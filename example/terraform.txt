@@ -1,0 +1,38 @@
+2023-07-30T10:54:03.002+0800 [INFO]  Terraform version: 1.5.4
+2023-07-30T10:54:03.095+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-07-30T10:54:03.095+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-07-30T10:54:03.095+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-07-30T10:54:03.095+0800 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-07-30T10:54:03.095+0800 [INFO]  Go runtime version: go1.20
+2023-07-30T10:54:03.095+0800 [INFO]  CLI args: []string{"C:\\Users\\Brett.Odgers-Jewell\\terraform.exe", "init"}
+2023-07-30T10:54:03.097+0800 [TRACE] Stdout is a terminal of width 218
+2023-07-30T10:54:03.097+0800 [TRACE] Stderr is a terminal of width 218
+2023-07-30T10:54:03.097+0800 [TRACE] Stdin is a terminal
+2023-07-30T10:54:03.100+0800 [DEBUG] Attempting to open CLI config file: C:\Users\Brett.Odgers-Jewell\AppData\Roaming\terraform.rc
+2023-07-30T10:54:03.101+0800 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-07-30T10:54:03.101+0800 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-07-30T10:54:03.101+0800 [DEBUG] ignoring non-existing provider search directory C:\Users\Brett.Odgers-Jewell\AppData\Roaming\terraform.d\plugins
+2023-07-30T10:54:03.102+0800 [DEBUG] ignoring non-existing provider search directory C:\Users\Brett.Odgers-Jewell\AppData\Roaming\HashiCorp\Terraform\plugins
+2023-07-30T10:54:03.102+0800 [INFO]  CLI command args: []string{"init"}
+2023-07-30T10:54:03.114+0800 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2023-07-30T10:54:03.114+0800 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2023-07-30T10:54:03.114+0800 [DEBUG] New state was assigned lineage "feb8dd7a-b971-d2de-9dd0-a6a055cf53a0"
+2023-07-30T10:54:03.114+0800 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2023-07-30T10:54:03.114+0800 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2023-07-30T10:54:03.115+0800 [DEBUG] checking for provisioner in "."
+2023-07-30T10:54:03.115+0800 [DEBUG] checking for provisioner in "C:\\Users\\Brett.Odgers-Jewell"
+2023-07-30T10:54:03.115+0800 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2023-07-30T10:54:03.115+0800 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2023-07-30T10:54:03.115+0800 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2023-07-30T10:54:03.115+0800 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2023-07-30T10:54:03.115+0800 [TRACE] statemgr.Filesystem: read nil snapshot
+2023-07-30T10:54:03.116+0800 [TRACE] ModuleInstaller: installing child modules for . into .terraform\modules
+2023-07-30T10:54:03.117+0800 [DEBUG] Module installer: begin azurerm_iothub_consumer_group
+2023-07-30T10:54:03.117+0800 [TRACE] ModuleInstaller: azurerm_iothub_consumer_group is not yet installed
+2023-07-30T10:54:03.117+0800 [TRACE] ModuleInstaller: cleaning directory .terraform\modules\azurerm_iothub_consumer_group prior to install of azurerm_iothub_consumer_group
+2023-07-30T10:54:03.117+0800 [TRACE] ModuleInstaller: azurerm_iothub_consumer_group address "git::https://github.com/BrettOJ/tf-az-module-iothub-consumer-group?ref=main" will be handled by go-getter
+2023-07-30T10:54:03.117+0800 [TRACE] getmodules: fetching "git::https://github.com/BrettOJ/tf-az-module-iothub-consumer-group?ref=main" to ".terraform\\modules\\azurerm_iothub_consumer_group"
+2023-07-30T10:54:09.302+0800 [TRACE] modsdir: writing modules manifest to .terraform\modules\modules.json

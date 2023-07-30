@@ -15,3 +15,4 @@ variable "consumer_groups" {
   type        = list(string)
   default     = []
 }
+

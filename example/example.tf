@@ -4,5 +4,4 @@ module "azurerm_iothub_consumer_group" {
     eventhub_endpoint_name = var.eventhub_endpoint_name
     resource_group_name = var.resource_group_name
     consumer_groups = var.consumer_groups
-
-}
+ }

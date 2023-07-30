@@ -1,4 +1,4 @@
-resource "azurerm_iothub_consumer_group" "example" {
+resource "azurerm_iothub_consumer_group" "iot_cons_group" {
     for_each = toset(var.consumer_groups)
 
   name                   = each.value
